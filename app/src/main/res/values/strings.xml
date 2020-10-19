@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">INSTA</string>
+
+    // Login Activity
+    <string name="edtLoginUserNameHint">Username</string>
+    <string name="edtLoginPasswordHint">Password</string>
+    <string name="btnLoginText">Login</string>
+    <string name="imgLoginLogoDescription">This image shows Logo of Insta </string>
+    <string name="txtLoginText">Don\'t have an Account ?</string>
+    <string name="txtLoginTransferToSignup">Signup</string>
+    <string name="txtLoggedInSuccessfullyText">Welcome To INSTA Family</string>
+    <string name="txtLoginResetPassword">Forgot Password??</string>
+    <string name="txtLoginResetPasswordText">Reset</string>
+
+    // SignUp Activity
+    <string name="txtSignUpActionBarTitle">SignUp</string>
+    <string name="edtSignUpUserNameHint">Create Username</string>
+    <string name="edtSignUpEmailHint">Enter Email Id</string>
+    <string name="edtSignUpPasswordHint">Create Password</string>
+    <string name="btnSignUpText">SignUp</string>
+    <string name="edtUserFullName">Enter FullName</string>
+
+    // success Dialog activity
+
+    <string name="txtSuccessDialog">Account Created Successfully!! \n Login To Continue</string>
+    <string name="btnSuccessDialog">Ok</string>
+    <string name="imgSuccessDialogDescription">This image depicts that account is created successfully</string>
+
+    // Error dialog activity
+
+    <string name="txtErrorDialog">OOPS!!! Error occurred \n Try again</string>
+    <string name="btnErrorDialog">Ok</string>
+    <string name="imgErrorDialogDescription">This image depicts that there is some error in creating account </string>
+
+    // Reset Password Activity
+    <string name="txtResetPasswordActionBarTitle">Reset Password</string>
+    <string name="edtResetPasswordHint">Enter Email</string>
+    <string name="btnResetPasswordText">Reset</string>
+    <string name="txtResetPasswordSuccessDialogMessege">Link To Reset Password is sent into Given Email</string>
+
+
+</resources>
