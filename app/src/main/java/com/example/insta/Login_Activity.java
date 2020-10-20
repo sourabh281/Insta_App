@@ -23,6 +23,7 @@ public class Login_Activity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_);
 
+
         edtLoginUserName = findViewById(R.id.edtLoginUsername);
         edtLoginPassword = findViewById(R.id.edtLoginPassword);
         btnLogin = findViewById(R.id.btnLogin);
@@ -33,6 +34,11 @@ public class Login_Activity extends AppCompatActivity implements View.OnClickLis
         btnLogin.setOnClickListener(Login_Activity.this);
         txtLoginTransferToSignUpActivity.setOnClickListener(Login_Activity.this);
         txtLoginResetPasswordText.setOnClickListener(Login_Activity.this);
+        if (ParseUser.getCurrentUser() != null){
+
+            Intent intent = new Intent(Login_Activity.this ,SocialMedia_Activity.class);
+            startActivity(intent);
+        }
 
     }
 
@@ -50,6 +56,10 @@ public class Login_Activity extends AppCompatActivity implements View.OnClickLis
 
                             SuccessDialog_Activity successDialog = new SuccessDialog_Activity();
                             successDialog.showSuccessDialog(Login_Activity.this , R.string.txtLoggedInSuccessfullyText);
+
+                            Intent intent = new Intent(Login_Activity.this , SocialMedia_Activity.class);
+                            startActivity(intent);
+
 
                         }else {
 
