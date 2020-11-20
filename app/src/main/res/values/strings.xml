@@ -37,8 +37,17 @@
     <string name="edtResetPasswordHint">Enter Email</string>
     <string name="btnResetPasswordText">Reset</string>
     <string name="txtResetPasswordSuccessDialogMessege">Link To Reset Password is sent into Given Email</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Profile Tab Fragment
+    <string name="edtProfileUserNameHint">Username</string>
+    <string name="edtProfileUserBioHint">Bio</string>
+    <string name="edtProfileUserProfessionHint">Profession</string>
+    <string name="edtProfileUserHobbieHint">Hobbie</string>
+    <string name="edtProfileUserFavSongHint">Favorite Song</string>
+    <string name="edtProfileUserMobileNoHint">Mobile Number</string>
+    <string name="btnProfileText">Save Profile</string>
+    <string name="TxtSuccessMessage">Success</string>
+
 
 
 </resources>

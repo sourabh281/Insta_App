@@ -18,17 +18,13 @@ public class Tab_Adapter  extends FragmentPagerAdapter {
     public Fragment getItem(int TabPosition) {
         switch (TabPosition){
             case 0:
-                Profile_Tab profile_tab = new Profile_Tab();
-                return profile_tab;
+                return new SharePicture_Tab();
             case 1:
-                Users_Tab users_tab = new Users_Tab();
-                return users_tab;
+                return new Users_Tab();
             case 2:
-                SharePicture_Tab sharePicture_tab = new SharePicture_Tab();
-                return sharePicture_tab;
+                return new Profile_Tab();
             default:
                 return null;
-
         }
     }
 
@@ -37,17 +33,18 @@ public class Tab_Adapter  extends FragmentPagerAdapter {
         return 3;
     }
 
+
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position){
 
             case 0:
-                return "Profile";
+                return "Share Picture";
             case 1:
                 return "Users";
             case 2:
-                return "Share Picture";
+                return "Profile";
             default:
                 return null;
         }
