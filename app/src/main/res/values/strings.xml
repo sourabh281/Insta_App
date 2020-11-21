@@ -48,6 +48,9 @@
     <string name="btnProfileText">Save Profile</string>
     <string name="TxtSuccessMessage">Success</string>
 
+    // Users Tab Fragment
+    <string name="txtLoadingContentTextVIew"> LOADING.... \n Please Wait</string>
+
 
 
 </resources>
