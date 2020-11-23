@@ -51,6 +51,11 @@
     // Users Tab Fragment
     <string name="txtLoadingContentTextVIew"> LOADING.... \n Please Wait</string>
 
+    // Share picture Tab
+    <string name="edtImageDescriptionHint">Describe your image</string>
+    <string name="imgShareImageDescription">This Image Is to Upload To INSTA so other Users Can See And like it.</string>
+    <string name="btnShareImageText">Share Image</string>
+
 
 
 </resources>
