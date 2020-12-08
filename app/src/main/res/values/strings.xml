@@ -19,6 +19,8 @@
     <string name="edtSignUpPasswordHint">Create Password</string>
     <string name="btnSignUpText">SignUp</string>
     <string name="edtUserFullName">Enter FullName</string>
+    <string name="txtGoToLogin">Already Have An Account???</string>
+    <string name="TxtRansitionToLoginActivityBtn">Login</string>
 
     // success Dialog activity
 
@@ -55,7 +57,6 @@
     <string name="edtImageDescriptionHint">Describe your image</string>
     <string name="imgShareImageDescription">This Image Is to Upload To INSTA so other Users Can See And like it.</string>
     <string name="btnShareImageText">Share Image</string>
-
 
 
 </resources>
